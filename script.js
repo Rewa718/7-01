@@ -12,9 +12,9 @@ function randomizer () {
   // compare user's guess with random number
   if (guess === randomNumber) {
     document.getElementById('response').innerHTML = 'You Win!'
-    }
+  }
 
   else {
     document.getElementById('response').innerHTML = 'Keep clicking guess till you win!'
-    }
   }
+}
