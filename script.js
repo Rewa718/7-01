@@ -1,8 +1,8 @@
 // Connect "Guess" button to "Random" function
-document.getElementById('Guess').addEventListener('click', randomizer)
+document.getElementById('guess').addEventListener('click', randomizer)
 let randomNumber = 0
 
-function randomizer() {
+function randomizer () {
   // get number typed in by user and convert to integer
   const guess = parseInt(document.getElementById('entnum').value)
 
@@ -11,8 +11,8 @@ function randomizer() {
   randomNumber = parseInt(randomNumber)
   // compare user's guess with random number
   if (guess === randomNumber) {
-    document.getElementById('response').innerHTML = 'You Win!'
-  }
+    document.getElementById('response').innerHTML = 'You Win!'}
+  
   else {
     document.getElementById('response').innerHTML = 'Keep clicking guess till you win!'
   }
