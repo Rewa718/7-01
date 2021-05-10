@@ -2,7 +2,7 @@
 document.getElementById('guess').addEventListener('click', randomizer)
 let randomNumber = 0
 
-function randomizer() {
+function randomizer () {
   // get number typed in by user and convert to integer
   const guess = parseInt(document.getElementById('entnum').value)
 
